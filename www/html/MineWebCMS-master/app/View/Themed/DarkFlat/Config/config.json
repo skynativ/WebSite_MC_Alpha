@@ -1,0 +1,34 @@
+{
+    "name": "DarkFlat",
+    "slug": "DarkFlat",
+    "author": "Qually86",
+    "version": "1.0.1",
+    "apiID": 0,
+    "slider": true,
+    "configurations": {
+        "name_site": "DarkFlat",
+        "desc_site": "DarkFlat est un th\u00e8me pour le CMS MineWeb",
+        "image_site": "",
+        "banner": "",
+        "logo_site": "https:\/\/png.icons8.com\/metro\/540\/minecraft-logo.png",
+        "twitter": "@username",
+        "favicon_url": "",
+        "modif_title1": "test",
+        "modif_fa1": "twitter",
+        "modif_desc1": "test",
+        "modif_title2": "test",
+        "modif_fa2": "home",
+        "modif_desc2": "testyt",
+        "modif_title3": "test",
+        "modif_fa3": "hdd-o",
+        "modif_desc3": "ttt",
+        "modif_title4": "test",
+        "modif_fa4": "plus",
+        "modif_desc4": "tttttttttt",
+        "config_ip": "play.epicube.fr",
+        "logo": false
+    },
+    "supported": {
+        "CMS": "^1.6.0"
+    }
+}

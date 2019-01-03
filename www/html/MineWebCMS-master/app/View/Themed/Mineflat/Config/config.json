@@ -1,0 +1,15 @@
+{
+   "name":"MineFlat",
+   "slug":"Mineflat",
+   "author":"Narty",
+   "version":"1.0.8",
+   "apiID":-1,
+   "configurations":{
+      "slider":"true",
+      "navbar":"navbar2",
+      "favicon_url":"http://mineweb.org/assets/favicon.png",
+      "logo":false
+   },
+   "supported":{},
+   "slider":true
+}

@@ -1,0 +1,22 @@
+{
+	"CCADEAU__TITLE":"Code cadeau",
+	"CCADEAU__LIST_TITLE":"Liste des codes cadeau",
+	"CCADEAU__TH_CODE":"Numéro du Code Cadeau",
+	"CCADEAU__TH_ETAT":"État du Code Cadeau",
+	"CCADEAU__CREATE_TITLE":"Créer un code cadeau",
+	"CCADEAU__EXEMPLE_CODE":"Numéro de votre code cadeau // Exemple: HA-XXXX-XXXX-XXXXX",
+	"CCADEAU__CREATE_BTN":"Créer",
+	"CCADEAU__NUMBER_CODE":"Nombre de points boutique à donner:",
+	"CCADEAU__ERROR_INPUT_NAME_CODE":"Le numéro du code cadeau est incorrect.",
+	"CCADEAU__ERROR_INPUT_POINT_CODE":"Les points à donner sont incorrects",
+	"CCADEAU__NO_EXIST":"Aucun code cadeau n'existe.",
+	"CCADEAU__NO_EXISTING":"Ce code cadeau n'existe pas.",
+	"CCADEAU__ALREADY_EXIST":"Ce code cadeau existe déjà.",
+	"CCADEAU__ALREADY_USE":"Ce code cadeau a déjà été utilisé.",
+	"CCADEAU__SUCCESS_CREATE":"Le code cadeau a été créé avec succès!",
+	"CCADEAU__HELP":"Si vous avez reçu un code cadeau, entrez-le ici!",
+	"CCADEAU__CLAIM_BTN":"Continuer",
+	"CCADEAU__SUCCESS_CLAIM_1":"Vous venez de reçevoir ",
+	"CCADEAU__SUCCESS_CLAIM_2":" points boutique",
+	"CCADEAU__DELETE_BTN":" Supprimer"
+}

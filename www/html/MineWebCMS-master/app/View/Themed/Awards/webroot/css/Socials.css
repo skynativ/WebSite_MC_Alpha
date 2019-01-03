@@ -1,0 +1,97 @@
+/**
+
+ Socials CSS
+
+**/
+
+/* Userbar */
+
+.user-bar .socials {
+    display: inline-block;
+    float: right;
+}
+
+.user-bar .socials .separator {
+    display: inline-block;
+    height: 30px;
+    width: 1px;
+    background: #262626;
+    margin: 0px 10px;
+    vertical-align: top;
+    position: relative;
+    top: 5px;
+    margin-top: -10px;
+}
+
+.user-bar .socials ul {
+    padding-top: 11px;
+}
+
+.user-bar .socials ul li a {
+    color: #808080;
+    font-size: 16px;
+    transition: 0.25s;
+}
+
+.user-bar .socials ul li .discord {
+    height: 16px;
+    width: 16px;
+    background: url(../img/socials/discord-btn.png);
+    background-position: top;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    transition: 0s;
+}
+
+.user-bar .socials ul li .discord:hover,
+footer .socials ul li .discord:hover {
+    background-position: bottom;
+}
+
+.user-bar .socials ul li .facebook:hover {
+    color: #3b5998;
+}
+
+.user-bar .socials ul li .twitter:hover {
+    color: #1da1f2;
+}
+
+.user-bar .socials ul li .youtube:hover {
+    color: #cd201f;
+}
+
+.user-bar .socials ul li .google-plus:hover {
+    color: #dd4b39;
+}
+
+.user-bar .socials ul li .pinterest:hover {
+    color: #bd081c;
+}
+
+.user-bar .socials ul li .snapchat:hover {
+    color: #fffc00;
+}
+
+.user-bar .socials ul li .instagram:hover {
+    color: #405de6;
+}
+
+.user-bar .socials ul li .twitch:hover {
+    color: #6441a5;
+}
+
+.user-bar .socials ul li .steam:hover {
+    color: #fff;
+}
+
+.user-bar .socials ul li .ip {
+    font-size: 14px;
+}
+
+.user-bar .socials ul li .ip:hover {
+    color: #fff;
+}
+
+
+/* ------------------------------------------------------------------ */

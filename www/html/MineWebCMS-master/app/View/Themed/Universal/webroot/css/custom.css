@@ -1,0 +1,102 @@
+/* your styles go here */
+
+html, body, #all { height: 100%; }
+body > #all { height: auto; min-height: 100%; }
+
+footer {
+ clear: both;
+ position: relative;
+ z-index: 10;
+ height: 88px;
+ margin-top: -40px;
+}
+
+#copyright {
+  font-size: 15px;
+  padding: 30px 0;
+}
+
+.navbar ul.nav > li > a {
+  text-decoration: none;
+}
+
+.owl-carousel .item {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+
+  -webkit-background-position: center;
+  -webkit-background-size: cover;
+}
+
+.navbar ul.nav > li > a:hover {
+  color: rgb(236, 236, 236);
+}
+
+.home-carousel .owl-carousel {
+  padding: 0;
+}
+
+.navbar-brand.home p {
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-size: 25px;
+  margin-top: 12px;
+}
+
+
+.product:hover .buttons {
+  display: block;
+}
+.product .buttons {
+  left: 0;
+  top: 20px;
+}
+.product .buttons a {
+  margin-top: 100px;
+}
+
+.navbar-affixed-top .navbar-collapse {
+  max-height: 100%;
+}
+
+
+.btn-template-main.transparent:not(:hover) {
+  background: transparent;
+}
+
+.btn-template-main {
+  outline:none;
+}
+
+
+
+.reply {
+  display: none;
+}
+img.support {
+  float: left;
+  margin-right: 10px;
+}
+p.support {
+  width: 100%;
+  float: center;
+}
+.reply-col {
+  margin-left: 30px;
+}
+.line-support {
+  width: 4px;
+  height: 41px;
+  background-color: rgb(22, 186, 234);
+  margin-right: 650px;
+  float: right;
+  margin-top: -20px;
+}
+h3.support {
+  margin-top: 0px;
+}
+.pull-right.support {
+  margin-top: -30px;
+}

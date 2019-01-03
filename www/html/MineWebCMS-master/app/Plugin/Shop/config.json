@@ -1,0 +1,44 @@
+{
+	"name":"Boutique",
+	"admin_menus": {
+		"GLOBAL__CUSTOMIZE": {
+			"Boutique": {
+				"icon": "shopping-cart",
+				"menu": {
+					"Gérer les articles": {
+						"icon": "shopping-basket",
+						"permission": "SHOP__ADMIN_MANAGE_ITEMS",
+						"route": "/admin/shop"
+					},
+					"Gérer les promotions": {
+						"icon": "percent",
+						"permission": "SHOP__ADMIN_MANAGE_VOUCHERS",
+						"route": "/admin/shop/shop/vouchers"
+					},
+					"Gérer les paiements": {
+						"icon": "credit-card",
+						"permission": "SHOP__ADMIN_MANAGE_PAYMENT",
+						"route": "/admin/shop/payment"
+					}
+				}
+			}
+		}
+	},
+	"navbar_routes": {
+		"Boutique": "/shop"
+	},
+	"author":"Eywek",
+	"version":"1.2.11",
+	"apiID":1,
+	"useEvents":true,
+	"permissions" : {
+		"available" : ["CREDIT_ACCOUNT", "CAN_BUY", "SHOP__ADMIN_MANAGE_ITEMS", "SHOP__ADMIN_MANAGE_VOUCHERS", "SHOP__ADMIN_MANAGE_PAYMENT"],
+		"default" : {
+			"0" : ["CREDIT_ACCOUNT", "CAN_BUY"],
+			"2" : ["CREDIT_ACCOUNT", "CAN_BUY"]
+		}
+	},
+	"requirements" : {
+		"CMS" : "^1.2.0"
+	}
+}

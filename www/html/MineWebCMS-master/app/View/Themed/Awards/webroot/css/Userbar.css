@@ -1,0 +1,98 @@
+/**
+
+ Userbar CSS
+
+**/
+
+/* UserBar */
+
+.user-bar {
+    padding: 0px 50px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.user-bar .user-infos {
+    display: inline-block;
+    position: relative;
+}
+
+.user-bar .user-infos img {
+    border-radius: 5px;
+    margin-right: 5px;
+    top: 7px;
+    position: relative;
+}
+
+.user-bar .user-infos span {
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.user-bar .user-infos .pseudo{
+    color: #fff;
+}
+
+.user-bar .separator {
+    display: inline-block;
+    height: 30px;
+    width: 1px;
+    background: #fff;
+    margin: 0px 10px;
+    vertical-align: top;
+    margin-top: 6px;
+    opacity: 0.1;
+}
+
+.user-bar .user-links {
+    display: inline-block;
+    padding-top: 7px;
+    position: relative;
+    top: 3px;
+}
+
+.user-bar .user-links a {
+    font-size: 12px;
+    color: #fff;
+    transition: 0.25s;
+}
+
+.user-bar .user-links a:hover {
+    color: #fff;
+}
+
+.user-bar .user-links a .deconnexion {
+    font-size: 16px;
+    color: #fff;
+    transition: 0.25s;
+    position: relative;
+    top: 1px;
+}
+
+.user-bar .user-links a .deconnexion:hover {
+    color: #ba2323;
+}
+
+.user-bar .user-links .separator {
+    display: inline-block;
+    height: 30px;
+    width: 1px;
+    background: #fff;
+    margin: 0px 10px;
+    vertical-align: top;
+    position: relative;
+    top: 5px;
+    margin-top: -10px;
+    opacity: 0.1;
+}
+
+.user-bar-none{
+    opacity: 0 !important;
+}
+
+/* ------------------------------------------------------------------ */

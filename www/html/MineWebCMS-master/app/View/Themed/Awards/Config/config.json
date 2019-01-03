@@ -1,0 +1,38 @@
+{
+    "name": "Awards",
+    "slug": "Awards",
+    "author": "Orphevs",
+    "version": "1.1.3",
+    "apiID": 0,
+    "slider": true,
+    "configurations": {
+        "favicon_url": "",
+        "launcher_global": "false",
+        "ip_global": "play.awardsmc.fr",
+        "theme-color": "rgb(32, 48, 120)",
+        "header_global": "true",
+        "header-welcome": "Bienvenue",
+        "video-id": "KK2smasHg6w",
+        "video-color": "",
+        "header-text": "Rejoignez-nous d\u00e8s maintenant !",
+        "header-only": "false",
+        "news_global": "false",
+        "slider": "false",
+        "vote_global": "true",
+        "vote_texte": "",
+        "vote_img": "",
+        "social_global": "true",
+        "discord_global": "true",
+        "discord_id": "316532971903385601",
+        "footer_global": "true",
+        "footer_texte": "Family Chill est un serveur PvP Faction\r\n<br><br>\r\nIl s\u2019inscrit comme l\u2019un des meilleurs serveurs factices, m\u00eame si personne ne peut vraiment le v\u00e9rifier.",
+        "css_custom": "",
+        "logo": false
+    },
+    "supported": {
+        "eywek.shop.1": "^1.2.2",
+        "eywek.support.2": "^1.0.13",
+        "eywek.vote.3": "^2.0.5",
+        "kenshimdev.changelog.54": "^1.1.0"
+    }
+}

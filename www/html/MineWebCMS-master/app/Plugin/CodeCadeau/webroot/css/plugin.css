@@ -1,0 +1,21 @@
+.fa-maj {
+    font-size: 3em;
+    position: relative;
+    top: 10px;
+}
+.title-info-maj {
+    font-weight: 900;
+}
+.col-icon-maj {
+    background-color: #ca8312 !important;
+    text-align: center;
+    padding-bottom: 46px;
+    padding-top: 26px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+.col-text-maj {
+    font-size: 1.4em;
+    margin-top: 0px;
+    margin-left: 20px;
+}

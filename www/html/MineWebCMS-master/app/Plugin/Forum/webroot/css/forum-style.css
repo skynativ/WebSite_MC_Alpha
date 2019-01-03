@@ -1,0 +1,557 @@
+.marge{
+    padding-bottom: 60px;
+}
+
+.marget{
+    margin-top: 30px;
+}
+
+.forum-forum{
+    margin-top: 30px;
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+}
+
+.forum-forum-withoutmarge{
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+}
+
+.forum-forum-header, .forum-other-header{
+    padding: 8px;
+}
+
+.forum-forum-header{
+    background-color: #fff;
+}
+
+.forum-other-header{
+    background-color: #fff;
+}
+
+.forum-forum-title{
+    font-size: 18px;
+    color: #777;
+    margin: 0 0 0 20px;
+}
+
+.forum-category{
+    border-top: 1px solid #e7e7e7;
+    padding: 5px 5px 5px 15px;
+}
+
+.forum-category-icon-min{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.forum-category-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.forum-category-title{
+    margin: 10px 0 0 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.forum-category-description{
+    font-size: 10px;
+}
+
+.forum-category-description > span{
+    font-weight: bold;
+}
+
+.forum-category-last{
+    margin: 10px 0 0 0;
+    font-size: 11px;
+}
+
+.forum-other-stats{
+    display: block;
+    font-size: 16px;
+}
+
+.forum-other-stats-txt{
+    font-size: 12px;
+}
+@media (max-width: 600px){
+    .hidden-mob{
+        display: none;
+    }
+}
+
+.forum-separator{
+    height: 30px;
+    background: #f8f8f8;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+.forum-extrainfo > dl{
+    margin-bottom: 10px;
+}
+
+.forum-extrainfo > dl > dd, dt{
+    display: inline-block;
+    font-size: 13px;
+}
+
+.forum-extrainfo{
+    margin: 0 10px;
+}
+
+.forum-extrainfo > dl > dd{
+    float: right;
+}
+
+.forum-topic-left{
+    margin: 5px;
+}
+
+.topic-avatar{
+    margin-top: 10px;
+}
+
+.topic-content{
+    margin: 10px;
+    word-wrap: break-word;
+    min-height: 283px;
+}
+
+.topic-content img{
+    max-width: 100%;
+    height: auto;
+}
+
+.topic-content-min{
+    margin: 10px;
+    min-height: 190px;
+}
+
+.topic-content-footer{
+    font-size: 12px;
+    width: 100%;
+}
+
+.topic-footer-rate{
+    float: right;
+    margin-right: 20px;
+    display: flex;
+}
+
+.btn-theme{
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 3px 12px;
+    margin-left: 10px;
+    transition: background 0.5s ease-in-out;
+    color: rgba(0,0,0,1);
+}
+
+.btn-themehover:hover{
+    background-color: #f0f0f0;
+    color: rgba(0,0,0,1);
+}
+
+.thumb-green{
+    color: #2ecc71;
+}
+
+.thumb-green:hover, .thumb-green.active{
+    background-color: #2ecc71 !important;
+    color: #ffffff !important;
+}
+
+.thumb-red{
+    color: #e74c3c;
+}
+
+.thumb-red:hover, .thumb-red.active{
+    background-color: #e74c3c !important;
+    color: #ffffff !important;
+}
+
+.forum-breadcrumb{
+    margin-top: 20px;
+    border: 1px solid #e7e7e7;
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.forum-breadcrumb-menu{
+    display: flex;
+}
+
+.forum-breadcrumb-home{
+    padding: 10px;
+    width: 35px;
+    border-right: 1px solid #e7e7e7;
+    display: flex;
+    align-items: center;
+    position: relative;
+    float: left;
+}
+
+.forum-breadcrumb-href{
+    padding: 10px 20px;
+    border-right: 1px solid #e7e7e7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+.forum-breadcrumb-child{
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.smile{
+    width: 16px;
+    height: 16px;
+}
+
+
+.forum-breadcrumb-home a::after, .forum-breadcrumb-href a::after{
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 8px solid #e7e7e7;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 100%;
+    z-index: 2;
+}
+
+.mt30{
+    margin-top: 30px;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+
+.mt15{
+    margin-top: 15px;
+}
+
+.mt10{
+    margin-top: 10px;
+}
+
+.mb30{
+    margin-bottom: 30px;
+}
+
+.mb20{
+    margin-bottom: 20px;
+}
+
+.mb15{
+    margin-bottom: 15px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+
+.forum-bloc{
+    border: 1px solid #e7e7e7;
+    border-radius: 2px;
+    background-color: #ffffff;
+}
+
+.p15{
+    padding: 15px;
+}
+
+.p10{
+    padding: 10px;
+}
+
+.success{
+    color: #5cb85c;
+}
+
+.danger{
+    color: #d9534f;
+}
+
+.warning{
+    color: #f0ad4e;
+}
+
+.forum-h2{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.forum-h3{
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.forum-rank{
+    margin: 5px;
+    text-align: center;
+}
+
+.forum-badgerank{
+    color: #fff;
+    padding: 2px 5px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.forum-topic-badgerank{
+    font-size: 12px;
+}
+
+.forum-category-fa{
+    line-height: 40px;
+    font-size: 45px;
+}
+
+.forum-category-fa-min{
+    font-size: 25px;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.banned{
+    margin-top: 20vh;
+    transform: translateY(-50%);
+}
+
+.padding-banned{
+    vertical-align: super;
+    padding: 0 30px;
+}
+
+ol > .forum-left{
+    border-right: 1px solid #e7e7e7;
+    padding: 10px;
+    width: 40px;
+}
+
+ol > .forum-left.last{
+    width: 100%;
+    text-align: center;
+    border-right: 0px;
+}
+
+.forum-back{
+    line-height: 27px;
+    margin: 0 0 0 20px;
+}
+
+.font-min{
+    font-size: 10px;
+}
+
+.forum-topic-badgerank.none{
+    border: 1px solid #e7e7e7;
+    color: #000;
+    display: inline-block;
+}
+
+.inline{
+    display: inline;
+}
+
+.media{
+    margin-left: 10px;
+}
+
+.media:hover{
+    list-style: none;
+    text-decoration: none;
+    text-underline: none;
+    cursor: pointer;
+}
+
+.media > .fa-stack{
+    width: 30px;
+}
+
+.fa-stack > i{
+    margin: 0 !important;
+    width: 30px;
+}
+
+.media-youtube, .media-youtube:hover{
+    color: #e52d27;
+}
+
+.media-facebook, .media-facebook:hover{
+    color: #3b5998;
+}
+
+.media-twitter, .media-twitter:hover{
+    color: #00aced;
+}
+
+.media-snapchat, .media-snapchat:hover{
+    color: #fffc00;
+}
+
+.media-google-plus, .media-google-plus:hover{
+    color: #dd4b39;
+}
+
+.media-vine, .media-vine:hover{
+    color: #00bf8f;
+}
+
+.media-instagram, .media-instagram:hover{
+    color:  #fb3958;
+}
+
+.media-instagram-old, .media-instagram-old:hover{
+    color:  #125688;
+}
+
+.media-linkedin, .media-linkedin:hover{
+    color: #007bb5;
+}
+
+.media-whatsapp, .media-whatsapp:hover{
+    color: #4dc247;
+}
+
+.media-pinterest, .media-pinterest:hover{
+    color: #cb2027;
+}
+
+.media-dropbox, .media-dropbox:hover{
+    color: #007ee5;
+}
+
+.media-flickr, .media-flickr:hover{
+    color: #ff0084;
+}
+
+.media-tumblr, .media-tumblr:hover{
+    color: #32506d;
+}
+
+.media-vimeo, .media-vimeo:hover{
+    color: #aad450;
+}
+
+.media-spotify, .media-spotify:hover{
+    color: #00e461;
+}
+
+.media-github, .media-github:hover{
+    color: #000000;
+}
+
+.media-behance, .media-behance:hover{
+    color: #1769ff;
+}
+
+.labeltag{
+    color: #ffffff;
+    font-weight: 600;
+    padding:1px 5px;
+    margin-right: 10px;
+}
+
+.middle{
+    margin: 0 !important;
+    vertical-align: middle;
+}
+
+.forum-forum-title > i{
+    margin-right: 10px;
+}
+
+/* Note aux développeurs de thèmes :
+ * Ce serait cool si vous pouviez changer la couleur de l'enveloppe avec le statut nouveau en foncion de votre thème
+ * Merci
+ */
+
+.unread-message{
+    color: #000000;
+}
+
+.error-chart{
+    width: 250px;
+    height: 250px;
+    max-height: initial;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.forum-forum-header > p{
+    line-height: 28px;
+}
+
+.chevron-hidden{
+    margin-right: 20px;
+}
+
+.admin-state{
+    height: 34px;
+    color: #ffffff;
+    line-height: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.admin-online{
+    background-color: #00a65a;
+}
+
+
+.admin-offline{
+    background-color: #dd4b39;
+}
+
+.forum-description{
+    font-size: 11px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.btn-full{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-half{
+    display: block;
+    width: 50%;
+    text-align: center;
+}
+
+.ml0{
+    margin-left: 0px;
+}
+
+.m0{
+    margin: 0 !important;
+}

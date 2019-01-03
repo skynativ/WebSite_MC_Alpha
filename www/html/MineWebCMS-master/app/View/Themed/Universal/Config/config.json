@@ -1,0 +1,36 @@
+{
+    "name": "Universal",
+    "slug": "Universal",
+    "author": "Eywek",
+    "version": "1.1.1",
+    "apiID": 3,
+    "slider": true,
+    "configurations": {
+        "theme": "default",
+        "favicon_url": "",
+        "homepage_features": [
+            {
+                "title": "Mon titre",
+                "icon": "user",
+                "message": "Mon super message"
+            },
+            {
+                "title": "Mon titre 2",
+                "icon": "cog",
+                "message": "Mon super message 2"
+            },
+            {
+                "title": "Mon titre 3",
+                "icon": "sign-out",
+                "message": "Mon super message 3"
+            }
+        ],
+        "logo": false
+    },
+    "supported": {
+        "CMS": "^1.2.0",
+        "eywek.shop.1": "^1.1.0",
+        "eywek.support.2": "^1.0.2",
+        "eywek.vote.3": "^2.0.0"
+    }
+}

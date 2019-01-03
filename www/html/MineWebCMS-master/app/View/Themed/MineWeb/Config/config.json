@@ -1,0 +1,20 @@
+{
+    "name": "MineWeb",
+    "slug": "MineWeb",
+    "author": "Eywek",
+    "version": "1.2.2",
+    "apiID": 1,
+    "slider": true,
+    "configurations": {
+        "slider": "true",
+        "navbar": "navbar2",
+        "favicon_url": "",
+        "logo": false
+    },
+    "supported": {
+        "CMS": "^1.2.0",
+        "eywek.shop.1": "^1.1.0",
+        "eywek.support.2": "^1.0.2",
+        "eywek.vote.3": "^2.0.0"
+    }
+}

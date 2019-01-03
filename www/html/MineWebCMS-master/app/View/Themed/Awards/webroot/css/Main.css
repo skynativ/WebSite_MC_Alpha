@@ -1,0 +1,798 @@
+/**
+
+    Thème : Awards
+    Création : 19/11/2017
+    Version 1.0.0
+
+    ------------------------------
+
+    Développé par Orphevs,
+    
+    Portfolio : http://orphevs.fr/
+    Twitter : https://twitter.com/Orphevs
+    Discord : https://discord.gg/nTMEwwr
+    
+    ------------------------------
+
+**/
+
+body{
+    background: #f2f2f2;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.disable-select{
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+/* Header */
+
+.header{
+    position: relative;
+    min-height: 95%;
+    width: 100%;
+}
+
+.header .header-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+    width: 100%;  
+    height: 100%;
+    overflow: hidden;
+}
+
+.header .header-background iframe{
+    width: 100%;  
+    height: 100%;
+    transform: scale(1.135,1.1);
+    opacity: 0.35;
+}
+
+.header .welcome-text{
+    text-align: center;
+    font-size: 200px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    background: rgba(255,255,255,0);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(20%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 20%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.1;
+    position: relative;
+    margin-top: -80px;
+    animation: welcome 2s;
+    pointer-events: none;
+}
+
+.header .website-name{
+    text-align: center;
+    font-size: 120px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Raleway';
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.header .website-name img{
+    max-width: 100%;
+    height: auto;
+}
+
+.header .separation{
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+    background: #fff;
+    height: 2px;
+    opacity: 0.2;
+}
+
+.header .counter-players{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+.header .btn-rejoin-us{
+    display: inline-block;
+    margin: auto;
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 3px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    transition: 0.35s;
+    color: #fff;
+    background: none;
+    border: solid 2px #fff;
+    position: relative;
+}
+
+.header .btn-rejoin-us:hover{
+    text-decoration: none;
+    background: #fff;
+    border: solid 2px #fff;
+    margin-top: 95px;
+    margin-bottom: 45px;
+}
+
+.header .ip-text{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: #fff;
+    opacity: 0.5;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.header .ip-text:hover{
+    opacity: 1;
+}
+
+.header .mouse-scroll{
+    width: 33px;
+    height: 50px;
+    border: solid 2px #fff;
+    border-radius: 20px;
+    display: inline-block;
+    opacity: 0.5;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.header .mouse-scroll .mouse-scroll-roll{
+    display: inline-block;
+    width: 3px;
+    height: 10px;
+    background: #fff;
+    margin-top: 8px;
+    animation: mouse-scroll-roll-rolling 2s infinite;
+    animation-timing-function: ease-out;
+    border-radius: 100px;
+}
+    
+.page{
+    background: #f2f2f2;
+    padding-top: 60px;
+}
+
+/* News HOME */
+
+.news-big-title h1{
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.news-big-title h1 i{
+    margin-right: 5px;
+}
+
+.news-home{
+    background: #fff;
+    border-radius: 3px;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    min-height: 80px;
+}
+
+.news-home img{
+    display: none;
+}
+
+.news-home .news-title:hover{
+    text-decoration: none;
+}
+
+.news-home .news-title h2{
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 20px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.news-home .news-title h2:hover{
+    text-decoration: none;
+}
+
+.news-home .news-text{
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #212121;
+    padding-right: 15px;
+}
+
+.news-home .news-date{
+    display: block;
+    text-align: right;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #999999;
+    padding: 20px 0px;
+}
+
+.news-home .news-commentaires, .news-home .news-likes{
+    padding: 6px 10px;
+    border: solid 1px;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    margin-top: 8px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.news-home .news-readmore{
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 3px;
+    display: inline-block;
+    float: right;
+    transition: 0.35s;
+}
+
+.news-home .news-readmore:hover{
+    text-decoration: none;
+    margin-top: -3px;
+}
+
+/* Vote Widget */
+
+.vote-widget{
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.vote-widget .image-custom{
+    text-align: center;
+}
+
+.vote-widget .image-custom img{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.vote-widget .coffre{
+    width: 179px;
+    height: 174px;
+    background: url(../img/vote-widget/coffre.png);
+}
+
+.vote-widget .coffre .diamant{
+    width: 37px;
+    height: 53px;
+    background: url(../img/vote-widget/diamant.png);
+    position: absolute;
+    margin-left: 74px;
+    margin-top: 40px;
+    animation: vote-widget-diamant 3.5s infinite;
+    animation-timing-function: linear;
+}
+
+.vote-widget .vote-infos{
+    max-width: 370px;
+    text-align: center;
+}
+
+.vote-widget .vote-message{
+    font-size: 24px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    color: #212121;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 28px;
+    margin-top: 15px;
+}
+
+.vote-widget .btn-vote-widget{
+    padding: 12px 20px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 40px;
+    transition: 0.35s;
+}
+
+.vote-widget .btn-vote-widget:hover{
+    text-decoration: none;
+    margin-top: 37px;
+}
+
+/* Sidebar - Carousel Widget */
+
+.carousel-widget{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.carousel{
+    width: 100%;
+    max-width: 450px;
+    height: 640px;
+    margin: auto;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+}
+
+.carousel .item h3{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    line-height: 32px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding: 30px 0px;
+}
+
+
+.carousel-caption {
+    right: 0;
+    left: 0;
+    padding-bottom: 30px;
+}
+
+/* Sidebar - Socials Widget */
+
+.socials-widget{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.socials-widget .socials-title{
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #212121;
+}
+
+.socials-widget .separation{
+    width: 100%;
+    height: 1px;
+    background: #000;
+    opacity: 0.1;
+    margin: 20px 0px;
+}
+
+.socials-widget .socials-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.socials-widget .social-badge{
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 32px;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    transition: 0.35s;
+    overflow: hidden;
+}
+
+.socials-widget .social-badge:hover{
+    font-size: 40px;
+    margin-top: -8px;
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.25);
+}
+
+.socials-widget .facebook{
+    background: #3b5998;
+}
+
+.socials-widget .twitter{
+    background: #00aced;
+}
+
+.socials-widget .youtube{
+    background: #cc181e;
+}
+
+.socials-widget .skype{
+    background: #12a5f4;
+}
+
+.socials-widget .social-badge .icon img{
+    max-width: 60%;
+    height: auto;
+    vertical-align: middle;
+    transition: 0.35s;
+}
+
+.socialiconhover{
+    max-width: 70% !important;
+}
+
+/* Sidebar - Discord Widget */
+
+.discord-widget{
+    background: #fff;
+    padding: 20px;
+}
+
+.discord-widget .discord-title{
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #212121;
+}
+
+.discord-widget .separation{
+    width: 100%;
+    height: 1px;
+    background: #000;
+    opacity: 0.1;
+    margin: 20px 0px;
+}
+
+.discord-widget iframe{
+    width: 100%;
+    min-height: 600px;
+}
+
+/* Pre-footer */
+
+.pre-footer-margin{
+    padding-top: 150px;
+    background: #f2f2f2;
+}
+
+.pre-footer{
+    min-height: 300px;
+    background: #212121;
+}
+
+.pre-footer .logo-footer{
+    font-size: 28px;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding: 16px 0px;
+}
+
+.pre-footer .separation{
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    opacity: 0.15;
+}
+
+/* Pre-footer - Informations */
+
+.pre-footer .footer-infos .title{
+    padding: 6px 10px;
+    background: #fff;
+    color: #212121;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.pre-footer .footer-infos .under-title{
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+
+.pre-footer .footer-infos .infos-text{
+    color: #cccccc;
+    font-size: 13px;
+    font-family: 'Open Sans';
+    padding: 30px 0px;
+    line-height: 18px;
+}
+
+/* Pre-footer - Classement vote */
+
+.pre-footer .footer-vote .title{
+    padding: 6px 10px;
+    background: #fff;
+    color: #212121;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.pre-footer .footer-vote .under-title{
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+
+.pre-footer .footer-vote .voters-all{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.pre-footer .footer-vote .voter-u{
+    padding-bottom: 15px;
+}
+
+.pre-footer .footer-vote .voter-u .voter-avatar{
+    display: inline-block;
+    
+}
+
+.pre-footer .footer-vote .voter-u .voter-u-infos{
+    display: inline-block;
+}
+
+.pre-footer .footer-vote .voter-u .voter-u-infos .pseudo{
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.pre-footer .footer-vote .voter-u .voter-u-infos .position{
+    font-size: 13px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #999999;
+    background: #303030;
+    padding: 4px 6px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.position:nth-child{
+    color: #fff600!important;
+}
+
+.pre-footer .footer-vote .voter-u .voter-u-infos .vote-number{
+    font-size: 12px;
+    font-family: 'Open Sans';
+    color: #cccccc;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pre-footer .footer-vote .voter-u .voter-avatar .avatar{
+    max-width: 40px;
+    height: auto;
+    position: relative;
+    top: 8px;
+    margin-right: 10px;
+}
+
+
+
+/* Footer */
+
+.footer{
+    min-height: 40px;
+    background: #2b2b2b;
+}
+
+.footer p{
+    color: #e6e6e6;
+    font-size: 12px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    padding-top: 14px;
+}
+
+/* Pages class */
+
+.titlePage{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.panel-title {
+    color: #fff;
+}
+
+/* Shop */
+
+.shop .product{
+    text-align: center;
+    border: solid 1px #eee;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    transition: 0.15s;
+    background: #fff;
+}
+
+.shop .product:hover{
+    border: solid 1px #d0d0d0;
+    box-shadow: 0px 0px 4.85px 0.15px rgba(0, 0, 0, 0.15);
+}
+
+.shop .product .btn{
+    display: block;
+}
+
+.shop .product img{
+    width: 100%;
+    max-width: 150px;
+    height: 130px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.shop .product .name{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.shop .product .page-header {
+    padding-bottom: 9px;
+    margin: 0px 0 20px;
+    border-bottom: 1px solid #eee;
+    font-family: 'Roboto', sans-serif;
+}
+
+.shop .credits{
+    font-size: 24px;
+}
+
+.shop .product .price{
+    font-size: 16px;
+    padding: 15px 0px;
+}
+
+.shop .panel-body{
+    text-align: center;
+}
+
+/* Modals */
+
+.modal-footer .btn{
+    font-size: 13px !important;
+}
+
+/* News Page */
+
+.news-page .news-date{
+    font-size: 13px;
+    padding: 20px 0px;
+}
+
+.news-page .news-commentaires-title{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    padding: 8px 20px;
+    margin-bottom: 20px;
+}
+
+.news-page #comment-form h4{
+    margin-bottom: 15px;
+}
+
+.news-page .img-responsive{
+    height: auto;
+}
+
+.news-page .comment{
+    margin-bottom: 20px;
+}
+
+.news-page .comment .pseudo{
+    text-align: center !important;
+    padding: 15px 0 !important;
+}
+
+/* Animations */
+
+@keyframes welcome{
+    0%{
+        opacity: 0;
+        top: -50px;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0.1;
+        top: 0;
+    }
+}
+
+@keyframes mouse-scroll-roll-rolling{
+    0%{
+        height: 7px;
+        margin-top: 0px;
+        opacity: 1;
+    }
+    80%{
+        height: 7px;
+        margin-top: 12px;
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+        height: 7px;
+        margin-top: 12px;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes vote-widget-diamant{
+    0%{
+        margin-top: 40px;
+    }
+    50%{
+        margin-top: 25px;
+    }
+    100%{
+        margin-top: 40px;
+    }
+}

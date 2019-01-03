@@ -1,0 +1,17 @@
+{
+   "name":"MineStorm",
+   "slug":"MineStorm",
+   "author":"Narty",
+   "version":"1.0.8",
+   "apiID":-1,
+   "configurations":{
+      "sidebar-vote":"true",
+      "status":"true",
+      "ip":"play.minestorm.fr",
+      "img_fond":"https://www.leviathyn.com/wp-content/uploads/2013/03/minecraft2_screenshot.jpg",
+      "favicon_url":"https://mineweb.org/assets/favicon.png",
+      "logo":false
+   },
+   "supported":{},
+   "slider":true
+}

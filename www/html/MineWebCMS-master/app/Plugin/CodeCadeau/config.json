@@ -1,0 +1,1 @@
+{"name":"Code Cadeau","author":"EmpireDev","version":"1.3.5","apiID":74,"admin_menus":{"Code Cadeau":{"index":2,"icon":"cog","menu":{"Gérer les codes":{"icon":"ticket","route":"/admin/code"}}}},"navbar_routes":{"Code Cadeau":"/code"},"useEvents":false,"permissions":{"available":[],"default":{"0":[],"2":[]}},"requirements":{"CMS":"^1.2.0"}}

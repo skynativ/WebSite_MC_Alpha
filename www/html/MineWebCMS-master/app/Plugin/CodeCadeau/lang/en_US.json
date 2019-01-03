@@ -1,0 +1,22 @@
+{
+	"CCADEAU__TITLE": "Gift code",
+		"CCADEAU__LIST_TITLE": "Gift Code List",
+		"CCADEAU__TH_CODE": "Number of the Gift Code",
+		"CCADEAU__TH_ETAT": "State of the Gift Code",
+		"CCADEAU__CREATE_TITLE": "Create a Gift Code",
+		"CCADEAU__EXEMPLE_CODE": "Number of your gift code // Example: HA-XXXX-XXXX-XXXXX",
+		"CCADEAU__CREATE_BTN": "Create",
+		"CCADEAU__NUMBER_CODE": "Number of shop points to give:",
+		"CCADEAU__ERROR_INPUT_NAME_CODE": "The gift code number is incorrect.",
+		"CCADEAU__ERROR_INPUT_POINT_CODE": "The points to give are incorrect",
+		"CCADEAU__NO_EXIST": "No gift code exists.",
+		"CCADEAU__NO_EXISTING": "This gift code does not exist.",
+		"CCADEAU__ALREADY_EXIST": "This gift code already exists.",
+		"CCADEAU__ALREADY_USE": "This gift code has already been used.",
+		"CCADEAU__SUCCESS_CREATE": "The gift code has been created successfully!",
+		"CCADEAU__HELP": "If you received a gift code, enter it here!",
+		"CCADEAU__CLAIM_BTN": "Continue",
+		"CCADEAU__SUCCESS_CLAIM_1": "You have just received",
+		"CCADEAU__SUCCESS_CLAIM_2": "shop points",
+		"CCADEAU__DELETE_BTN": "Delete"
+}

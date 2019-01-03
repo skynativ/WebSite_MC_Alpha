@@ -1,0 +1,33 @@
+{
+    "name": "Flat",
+    "slug": "Flat",
+    "author": "Qually86",
+    "version": "2.0.0",
+    "apiID": 0,
+    "slider": true,
+    "configurations": {
+        "color": "",
+        "name_site": "MineWeb",
+        "desc_site": "Mineweb est un serveur ...  qui est ouvert depuis le ... D\u00e9cembre 2017, Nous sommes actuellement en Version XX",
+        "image_site": "",
+        "banner": "",
+        "logo_site": "",
+        "favicon_url": "",
+        "navi_13": "",
+        "navi_10": "",
+        "navi_6": "",
+        "navi_3": "https:\/\/image.flaticon.com\/icons\/svg\/321\/321759.svg",
+        "navi_home": "https:\/\/image.flaticon.com\/icons\/svg\/149\/149064.svg",
+        "sidebar_option": "true",
+        "sidebar_option2": "true",
+        "fa-tw": "twitter",
+        "twitter": "AypierreMC",
+        "fa-yt": "youtube",
+        "youtube": "Aypierre",
+        "config_ip": "play.epicube.fr",
+        "logo": false
+    },
+    "supported": {
+        "CMS": "^1.6.0"
+    }
+}

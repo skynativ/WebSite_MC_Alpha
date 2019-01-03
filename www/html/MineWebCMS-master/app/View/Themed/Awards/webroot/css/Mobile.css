@@ -1,0 +1,56 @@
+/** Responsive CSS **/
+
+@media screen and (max-width: 1200px){
+    
+    .header{
+        position: relative;
+        min-height: inherit;
+        margin-top: 0px;
+        background: rgba(42, 51, 88, 0.85);
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    
+    .header .header-background iframe{
+        display: none;
+    }
+    
+    .header .welcome-text{
+        display: none;
+    }
+    
+    .header .website-name{
+        text-align: center;
+        font-size: 18vw;
+        color: #fff;
+        font-weight: 700;
+        font-family: 'Raleway';
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    
+    .header .counter-players {
+        text-align: center;
+        color: #fff;
+        font-size: 5vw;
+        font-family: 'Raleway';
+        font-weight: 600;
+        padding: 20px 0px;
+    }
+    
+    .header .mouse-scroll {
+        display: none;
+    }
+    
+    .vote-widget .vote-message {
+        font-size: 24px;
+        font-family: 'Raleway';
+        font-weight: 800;
+        color: #212121;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 28px;
+    }
+    
+    
+}
